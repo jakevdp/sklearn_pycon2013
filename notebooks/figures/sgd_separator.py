@@ -33,3 +33,8 @@ def plot_sgd_separator():
     ax.scatter(X[:, 0], X[:, 1], c=Y, cmap=plt.cm.Paired)
 
     ax.axis('tight')
+
+
+if __name__ == '__main__':
+    plot_sgd_separator()
+    plt.show()

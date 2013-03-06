@@ -30,3 +30,8 @@ def plot_linear_regression():
     ax.set_ylabel('y')
 
     ax.axis('tight')
+
+
+if __name__ == '__main__':
+    plot_linear_regression()
+    plt.show()
