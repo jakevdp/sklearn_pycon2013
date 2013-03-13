@@ -3,6 +3,10 @@ PyCon 2013 Scikit-learn Tutorial
 
 *Instructor: Jake VanderPlas*
 
+- email: <jakevdp@cs.washington.edu>
+- twitter: [@jakevdp](https://twitter.com/jakevdp)
+- github: [jakevdp](http://github.com/jakevdp)xs
+
 This repository will contain files and other info associated with my PyCon
 2013 scikit-learn tutorial.
 
