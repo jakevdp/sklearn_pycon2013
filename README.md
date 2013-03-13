@@ -58,7 +58,7 @@ the tutorial!
 Notebook Listing
 ----------------
 These notebooks in this repository can be statically viewed using the
-nbviewer site:
+excellent [nbviewer](http://nbviewer.ipython.org) site:
 
 - [01_introduction.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/01_introduction.ipynb)
 - [02_sklearn_data.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/02_sklearn_data.ipynb)
@@ -71,3 +71,6 @@ nbviewer site:
 - [09_validation_and_testing.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/09_validation_and_testing.ipynb)
 - [10_digits_classification.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/10_digits_classification.ipynb)
 - [11_photoz_regression.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/11_photoz_regression.ipynb)
+
+Note that some of the code in these notebooks will not work outside the
+directory structure of this tutorial.
