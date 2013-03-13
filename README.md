@@ -42,7 +42,7 @@ Data Downloads
 The data for this tutorial is not included in the repository.  We will be
 using several data sets during the tutorial: most are built-in to
 scikit-learn, and one is culled from the
-[Sloan Digital Sky Survey](http://skyserver.sdss.org/public/en/)
+[Sloan Digital Sky Survey](http://skyserver.sdss.org/public/en/).
 The tutorial includes code which automatically downloads and caches these
 data.  Because the wireless network
 at conferences can often be spotty, it would be a good idea to download these
@@ -58,7 +58,11 @@ the tutorial!
 Notebook Listing
 ----------------
 These notebooks in this repository can be statically viewed using the
-excellent [nbviewer](http://nbviewer.ipython.org) site:
+excellent [nbviewer](http://nbviewer.ipython.org) site.  They will not
+be able to be modified within nbviewer.  To modify them, first download
+the tutorial repository, change to the notebooks directory, and type
+``ipython notebook``.  You should see the list in the ipython notebook
+launch page in your web browser.
 
 - [01_introduction.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/01_introduction.ipynb)
 - [02_sklearn_data.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/02_sklearn_data.ipynb)

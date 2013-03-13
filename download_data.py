@@ -21,3 +21,13 @@ sys.path.append(os.path.abspath('notebooks'))
 from datasets import fetch_sdss_galaxy_mags
 colors = fetch_sdss_galaxy_mags()
 print "Successfully fetched SDSS galaxy data"
+
+
+#------------------------------------------------------------
+# SDSS filters & vega spectrum: stored in notebooks/figures/downloads
+from figures.sdss_filters import fetch_filter, fetch_vega_spectrum
+spectrum = fetch_vega_spectrum()
+print "Successfully fetched vega spectrum"
+
+filters = [fetch_filter(f) for f in 'ugriz']
+print "Successfully fetched SDSS filters"
