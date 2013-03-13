@@ -2,7 +2,6 @@
 
 import io
 import os
-import sys
 
 from IPython.nbformat import current
 
@@ -40,4 +39,5 @@ def downgrade_ipynb(fname):
         current.write(nb, f, 'json')
 
 if __name__ == '__main__':
-    map(downgrade_ipynb, sys.argv[1:])
+    map(downgrade_ipynb, [f for f in os.listdir('.')
+                          if f.endswith('.ipynb') and 'v2' not in f]) 
