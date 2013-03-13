@@ -50,4 +50,5 @@ data sets before arriving at the conference.
 To cache the required data on your computer, please download the tutorial
 materials as described above, and execute the script called
 ``download_data.py`` in this directory.  It will cache several datasets to
-the appropriate places.
+the appropriate places, and you'll be ready to go when it comes time for the
+tutorial!
