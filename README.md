@@ -4,8 +4,7 @@ PyCon 2013 Scikit-learn Tutorial
 *Instructor: Jake VanderPlas*
 
 This repository will contain files and other info associated with my PyCon
-2013 scikit-learn tutorial.  I anticipate working on this during the weeks
-leading up to PyCon, so check back here often for updates!
+2013 scikit-learn tutorial.
 
 Installation Notes
 ------------------
@@ -34,13 +33,15 @@ material in this tutorial by using the git address shown above:
     git clone git://github.com/jakevdp/sklearn_pycon2013.git
 
 If you can't or don't want to install git, there is a link above to download
-the contents of this repository as a zip file.
+the contents of this repository as a zip file.  I may make minor changes to
+the repository in the days before the tutorial, however, so cloning the
+repository is a much better option.
 
 Data Downloads
 --------------
 The data for this tutorial is not included in the repository.  We will be
-using several data sets during the tutorial: most are built-in to scikit-learn,
-and one is culled from the
+using several data sets during the tutorial: most are built-in to
+scikit-learn, and one is culled from the
 [Sloan Digital Sky Survey](http://skyserver.sdss.org/public/en/)
 The tutorial includes code which automatically downloads and caches these
 data.  Because the wireless network
@@ -49,6 +50,6 @@ data sets before arriving at the conference.
 
 To cache the required data on your computer, please download the tutorial
 materials as described above, and execute the script called
-``download_data.py`` in this directory.  It will cache several datasets to
-the appropriate places, and you'll be ready to go when it comes time for the
-tutorial!
+``download_data.py`` from the top directory.  It will cache several datasets
+to the appropriate places, and you'll be ready to go when it comes time for
+the tutorial!
