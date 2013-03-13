@@ -53,3 +53,21 @@ materials as described above, and execute the script called
 ``download_data.py`` from the top directory.  It will cache several datasets
 to the appropriate places, and you'll be ready to go when it comes time for
 the tutorial!
+
+
+Notebook Listing
+----------------
+These notebooks in this repository can be statically viewed using the
+nbviewer site:
+
+- [01_introduction.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/01_introduction.ipynb)
+- [02_sklearn_data.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/02_sklearn_data.ipynb)
+- [03_machine_learning_101.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/03_machine_learning_101.ipynb)
+- [04_houses_regression.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/04_houses_regression.ipynb)
+- [05_iris_classification.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/05_iris_classification.ipynb)
+- [06_iris_dimensionality.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/06_iris_dimensionality.ipynb)
+- [07_iris_clustering.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/07_iris_clustering.ipynb)
+- [08_linearly_separable.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/08_linearly_separable.ipynb)
+- [09_validation_and_testing.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/09_validation_and_testing.ipynb)
+- [10_digits_classification.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/10_digits_classification.ipynb)
+- [11_photoz_regression.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2013/master/notebooks/11_photoz_regression.ipynb)
