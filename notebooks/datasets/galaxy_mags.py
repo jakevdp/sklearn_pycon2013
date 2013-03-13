@@ -113,4 +113,3 @@ def fetch_sdss_galaxy_mags(data_home=DATA_HOME, download_if_missing=True):
         data = np.load(archive_file)
 
     return data
-

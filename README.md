@@ -25,11 +25,29 @@ painless way to install all the requirements is to use a package such as
 [Anaconda CE](http://store.continuum.io/ "Anaconda CE"), which can be
 downloaded and installed for free.
 
+Downloading the Tutorial Materials
+----------------------------------
+I would highly recommend using git, not only for this tutorial, but for the
+general betterment of your life.  Once git is installed, you can clone the
+material in this tutorial by using the git address shown above:
+
+    git clone git://github.com/jakevdp/sklearn_pycon2013.git
+
+If you can't or don't want to install git, there is a link above to download
+the contents of this repository as a zip file.
+
 Data Downloads
 --------------
-We will use several data sets for this tutorial. Because the wireless network
+The data for this tutorial is not included in the repository.  We will be
+using several data sets during the tutorial: most are built-in to scikit-learn,
+and one is culled from the
+[Sloan Digital Sky Survey](http://skyserver.sdss.org/public/en/)
+The tutorial includes code which automatically downloads and caches these
+data.  Because the wireless network
 at conferences can often be spotty, it would be a good idea to download these
 data sets before arriving at the conference.
 
-Please check back here in the days before the conference for instructions
-on how to download the required data.
+To cache the required data on your computer, please download the tutorial
+materials as described above, and execute the script called
+``download_data.py`` in this directory.  It will cache several datasets to
+the appropriate places.
