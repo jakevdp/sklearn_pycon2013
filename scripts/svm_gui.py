@@ -147,6 +147,8 @@ class View(object):
         canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
         canvas._tkcanvas.pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
         canvas.mpl_connect('button_press_event', self.onclick)
+        canvas.mpl_connect('key_press_event', self.keypress)
+        canvas.mpl_connect('key_release_event', self.keyrelease)
         toolbar = NavigationToolbar2TkAgg(canvas, root)
         toolbar.update()
         self.controllbar = ControllBar(root, controller)
@@ -158,16 +160,29 @@ class View(object):
         self.c_labels = None
         self.plot_kernels()
 
+        self.control_key = False
+
     def plot_kernels(self):
         self.ax.text(-50, -60, "Linear: $u^T v$")
         self.ax.text(-20, -60, "RBF: $\exp (-\gamma \| u-v \|^2)$")
         self.ax.text(10, -60, "Poly: $(\gamma \, u^T v + r)^d$")
 
+    def keypress(self, event):
+        if event.key == 'control':
+            self.control_key = True
+
+    def keyrelease(self, event):
+        if event.key == 'control':
+            self.control_key = False
+        
     def onclick(self, event):
         if event.xdata and event.ydata:
             if event.button == 1:
-                self.controller.add_example(event.xdata, event.ydata, 1)
-            elif event.button == 3:
+                if self.control_key:
+                    self.controller.add_example(event.xdata, event.ydata, -1)
+                else:
+                    self.controller.add_example(event.xdata, event.ydata, 1)
+            elif event.button in (2, 3):
                 self.controller.add_example(event.xdata, event.ydata, -1)
 
     def update_example(self, model, idx):
