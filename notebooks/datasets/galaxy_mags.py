@@ -5,7 +5,7 @@ import numpy as np
 
 #----------------------------------------------------------------------
 # Tools for querying the SDSS database using SQL
-PUBLIC_URL = 'http://cas.sdss.org/public/en/tools/search/x_sql.asp'
+PUBLIC_URL = 'http://skyserver.sdss.org/dr7/en/tools/search/x_sql.asp'
 DEFAULT_FMT = 'csv'
 
 

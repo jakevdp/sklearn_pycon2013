@@ -14,7 +14,7 @@ from matplotlib.patches import Arrow
 
 DOWNLOAD_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                             'downloads')
-REFSPEC_URL = 'ftp://ftp.stsci.edu/cdbs/current_calspec/ascii_files/1732526_nic_002.ascii'
+REFSPEC_URL = 'http://www.astro.washington.edu/users/ivezic/DMbook/data/1732526_nic_002.ascii'
 FILTER_URL = 'http://www.sdss.org/dr7/instruments/imager/filters/%s.dat'
 
 def fetch_filter(filt):
