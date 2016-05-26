@@ -1,6 +1,8 @@
 PyCon 2013 Scikit-learn Tutorial
 ================================
 
+**Note: for updated tutorial content, please see** http://github.com/jakevdp/sklearn_tutorial/
+
 *Instructor: Jake VanderPlas*
 
 - email: <jakevdp@cs.washington.edu>
